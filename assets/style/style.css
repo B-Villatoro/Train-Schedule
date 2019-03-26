@@ -1,0 +1,70 @@
+#container {
+
+    margin: 0 13%;
+}
+
+#top {
+    text-align: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 180%;
+    font-weight: 600;
+    /* text-shadow: 0 0 5px white, 0 0 10px red,0 0 white; */
+    -webkit-text-stroke: 1px red;
+    stroke-width: 5px;
+    border-radius: 10px;
+    border: 5px solid red;
+    box-shadow: 5px 5px 5px rgba(255, 14, 215, 0.6);
+}
+
+#holder {
+    display: flex;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#holder>div {
+    background-color: orangered;
+    flex: 0 0 8.33%;
+    margin: 5px;
+}
+
+#formcontainer {
+    border: 2px solid red;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+   
+}
+#formcontent > div{
+    padding: 10px 12px 8px ;
+}
+
+#formheader {
+    background-color: red;
+    color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: 700;
+    text-align: left;
+    
+}
+
+input {
+    position: relative;
+    margin-bottom: 10px;
+    width: 98%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#mybutt{
+
+    flex: 0 0 10%;
+    background: red;
+}
