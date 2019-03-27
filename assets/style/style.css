@@ -15,20 +15,43 @@
     stroke-width: 5px;
     border-radius: 10px;
     border: 5px solid red;
-    box-shadow: 5px 5px 5px rgba(255, 14, 215, 0.6);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
 }
 
-#holder {
-    display: flex;
-    background-color: antiquewhite;
+#infocontainer {
+    border: 2px solid red;
+    border-radius: 5px;
     flex-wrap: wrap;
     margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    
 }
+#infoheader{
+    background:red;
+    font-weight: 700;
+}
+#tablediv{
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+}
+   
 
-#holder>div {
-    background-color: orangered;
-    flex: 0 0 8.33%;
-    margin: 5px;
+#traintable{
+    width: 100%;
+    border-collapse: separate;
+    border: 2px solid black;
+   word-wrap: break-word;
+   padding: 5px;
+}
+#traintable > td,th{
+    display: inline;
+    margin: 5px 10px;
+    padding: 5px;
+    border: 2px solid black;
+    background: purple;
+
 }
 
 #formcontainer {
@@ -38,7 +61,7 @@
     align-content: center;
     align-items: center;
     text-align: center;
-
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
    
 }
 #formcontent > div{
@@ -64,7 +87,16 @@ input {
 }
 
 #mybutt{
-
+    padding: 0 !important;
     flex: 0 0 10%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     background: red;
+    font-weight: 700;
+
+}
+
+#holder{
+    border: 2px solid red;
+    border-radius: 5px;
 }
